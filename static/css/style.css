@@ -120,11 +120,28 @@ input[type="number"]:focus,
   width: 100%;
   bottom: -70%;
   transition: .3s ease-in;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .phone-nav-icon {
   font-size: 25px;
   color: #fff;
+}
+
+.pop-button {
+  position: fixed;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: black;
+  bottom: 30px;
+  left: 45%;
+
+}
+
+.pop-button i {
+  color: black !important;
 }
 
 /* ========= Phone navbar ======== */
