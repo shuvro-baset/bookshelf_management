@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/ico" href="./static/img/Favicon.ico"/>
+
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <link rel="stylesheet" href="./static/css/media.css" />
+  </head>
+  <body>
+    <!-- Row for logo and sreachbar start -->
+    <div class="container-fluid">
+      <div class="row logo-row">
+        <div class="col-sm-12 text-center text-white">
+          <h2 class="my-3 logo">BookHub</h2>
+        </div>
+      </div>
+      <!-- Row for navbar and cart icons start -->
+
+      <div class="row logo-row search-icons-section" id="hide">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <div class="search-bar my-3">
+            <form method="post" class="d-flex flex-row">
+              <input type="text" name="search" placeholder="Search by book name or writter name"/>
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-6 d-flex justify-content-center align-items-center px-5 icon-section">
+          <a href="#"><i class="fas fa-shopping-cart icons"></i></a>
+          <a href="#"><i class="fas fa-sign-in-alt icons"></i></a>
+          <a href="#"><i class="fas fa-user-plus icons"></i></a>
+        </div>
+      </div>
+      <!-- Row for navbar and cart icons end -->
+
+      <!-- Row for nav links start -->
+
+      <!-- ========== Desktop navbar ========== -->
+      <div class="row navbar-desktop" id="hide">
+        <div class="col-sm-12 d-flex flex-row justify-content-center align-items-center nav-links">
+          <a href="#" class="d-flex justify-content-center active">Home</a>
+          <a href="#" class="d-flex justify-content-center">Books</a>
+          <a href="#" class="d-flex justify-content-center">Blogs</a>
+          <a href="#" class="d-flex justify-content-center">Reviews</a>
+          <a href="#" class="d-flex justify-content-center">About Us</a>
+          <a href="#" class="d-flex justify-content-center">Contact Us</a>
+        </div>
+      </div>
+      <!-- ========== Desktop navbar ========== -->
+
+      <!-- Row for nav links end -->
+
+      <!-- row for logo and sreachbar start -->
+    </div>
+
+    <!-- ========== Phone navbar ========== -->
+
+    <div class="phone-navbar-outer">
+      <div class="phone-inner d-flex flex-row justify-content-between align-items-center">
+        <i class="fas fa-home phone-nav-icon my-3 mx-4"></i>
+        <i class="fas fa-book-open phone-nav-icon my-3 mx-4"></i>
+      </div>
+    </div>
+
+    <!-- ========== Phone navbar ========== -->
+
+    <div class="container">
+      <div class="row my-5 mx-4">
+        <div class="col-sm-6 welcome-section">
+          <h1>Welcome folks,</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Deserunt, voluptates 
+            laboriosam molestiae accusantium sapiente 
+            tenetur suscipit cupiditate assumenda magnam
+            reiciendis quis culpa, quasi veniam harum 
+            eveniet ad odio iste vero voluptatem enim 
+            vel aspernatur ut? Ut obcaecati earum ratione 
+            iure provident labore voluptates quam culpa 
+            fugit doloribus vel natus sunt repellat, 
+            perspiciatis vitae quia porro corporis, 
+            ullam aliquam expedita placeat officiis 
+            temporibus. Consequatur quis eos rem praesentium? 
+            Et laborum nulla qui explicabo error enim, dolore 
+            reiciendis labore magnam magni illum, sed, unde 
+            optio ratione. Nam labore quia consequuntur optio. 
+            Adipisci sed quisquam iusto nisi impedit tenetur ad
+            eveniet quidem magnam.aesentium? Et laborum nulla 
+            qui explicabo error enim, dolore reiciendis labore 
+            magnam magni illum, sed, unde optio ratione. Nam 
+            labore quia consequuntur optio. Adipisci sed 
+            quisquam iusto nisi impedit tenetur ad eveniet 
+            quidem magnam.</p>
+        </div>
+        <div class="col-sm-6 animation-section d-flex justify-content-center align-items-center" id="hide">
+          <img src="./static/img/animation.gif">
+        </div>
+      </div>
+    </div>
+
+    <script src="./static/js/script.js"></script>
+    <script src="./static/js/all.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
