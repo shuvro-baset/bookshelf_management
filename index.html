@@ -25,12 +25,14 @@
 
       <div class="row logo-row search-icons-section" id="hide">
         <div class="col-sm-6 d-flex justify-content-center">
+          <!-- Search bar -->
           <div class="search-bar my-3">
             <form method="post" class="d-flex flex-row">
               <input type="text" name="search" placeholder="Search by book name or writter name"/>
               <button type="submit"><i class="fas fa-search"></i></button>
             </form>
           </div>
+          <!-- Search bar -->
         </div>
 
         <div class="col-sm-6 d-flex justify-content-center align-items-center px-5 icon-section">
@@ -63,16 +65,36 @@
 
     <!-- ========== Phone navbar ========== -->
 
-    <div class="phone-navbar-outer">
-      <div class="pop-button d-flex justify-content-center align-items-center">
+    <div class="phone-navbar-outer shadow-lg" id="phone_outer">
+      <div class="pop-button d-flex justify-content-center align-items-center" id="pop_button">
         <i class="fas fa-angle-up phone-nav-icon"></i>
       </div>
       <div class="phone-inner d-flex flex-row justify-content-between align-items-center">
-        <i class="fas fa-home phone-nav-icon my-3 mx-4"></i>
-        <i class="fas fa-book-open phone-nav-icon my-3 mx-4"></i>
-        <i class="fas fa-blog phone-nav-icon my-3 mx-4"></i>
-        <i class="fas fa-user phone-nav-icon my-3 mx-4"></i>
+        <a href="#"><i class="fas fa-home phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-book-open phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-blog phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-user phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
       </div>
+
+      <div class="phone_links d-flex flex-row flex-wrap justify-content-center px-3">
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Home</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Books</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Blogs</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Reviews</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">About Us</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Contact Us</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Login</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Signup</a>
+        <!-- Search bar -->
+        <div class="search-bar my-3 phone-search mt-3">
+          <form method="post" class="d-flex flex-row">
+            <input type="text" name="search" placeholder="Search by book name or writter name"/>
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+        <!-- Search bar -->
+      </div>
+
     </div>
 
     <!-- ========== Phone navbar ========== -->
