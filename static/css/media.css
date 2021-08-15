@@ -2,6 +2,10 @@
   #hide {
     display: none !important;
   }
+
+  #phone_outer {
+    display: block;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -61,3 +65,16 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 320px) {
+  .phone_links a {
+    width: 120px;
+  }
+
+  .phone-search input {
+    width: 200px ;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}
+

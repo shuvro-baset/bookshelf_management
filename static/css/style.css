@@ -116,10 +116,13 @@ input[type="number"]:focus,
 .phone-navbar-outer {
   position: fixed;
   background: #80d5f9;
+  /* background: #fff; */
+  border-top: 3px solid #80d5f9;
   height: 500px;
   width: 100%;
   bottom: -70%;
-  transition: .3s ease-in;
+  /* bottom: 0%; */
+  transition: .3s ease-in-out;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -137,11 +140,32 @@ input[type="number"]:focus,
   background: black;
   bottom: 30px;
   left: 45%;
-
+  transition: .3s ease-in;
+  transform: rotate(0deg);
 }
 
 .pop-button i {
   color: black !important;
+}
+
+.phone_links a {
+  text-decoration: none;
+  margin: 5px;
+  width: 160px;
+  height: 40px;
+  background: #e1f3fa;
+  color: black;
+  border: 3px solid #80d5f9;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.phone-search input {
+  border: 2px solid black !important;
+}
+
+#phone_outer {
+  display: none;
 }
 
 /* ========= Phone navbar ======== */
