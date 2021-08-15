@@ -120,7 +120,8 @@ input[type="number"]:focus,
   border-top: 3px solid #80d5f9;
   height: 500px;
   width: 100%;
-  bottom: -70%;
+  /* bottom: -70%; */
+  bottom: -440px;
   /* bottom: 0%; */
   transition: .3s ease-in-out;
   border-top-right-radius: 10px;

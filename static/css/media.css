@@ -78,3 +78,16 @@
   }
 }
 
+@media (max-width: 360px) {
+  .phone_links a {
+    width: 110px;
+  }
+
+  .phone-search input {
+    width: 200px ;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}
+
+
