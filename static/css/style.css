@@ -182,5 +182,23 @@ input[type="number"]:focus,
 /* ================ Home Page ================ */
 
 /* --------- features section start ---------- */
-
+#features-section h1{
+  color: #80d5f9;
+}
+#features-section span {
+  color: #000000;
+}
+.accordion-item{
+  background-color: #80d5f9;
+}
+.accordion-button{
+  background-color: #80d5f9;
+  color: #000000;
+  font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #80d5f9;
+  color: #000000;
+  font-weight: 600;
+}
 /* -------- Features section end ---------- */
