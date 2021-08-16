@@ -182,10 +182,10 @@ input[type="number"]:focus,
 /* ================ Home Page ================ */
 
 /* --------- features section start ---------- */
-#service-section h1{
+#features-section h1{
   color: #80d5f9;
 }
-#service-section span {
+#features-section span {
   color: #000000;
 }
 .accordion-item{
