@@ -202,3 +202,24 @@ input[type="number"]:focus,
   font-weight: 600;
 }
 /* -------- Features section end ---------- */
+/* ---- quotes section start ---------- */
+#quotes-section{
+  background-color: #80d5f9;
+
+}
+.box{
+  padding: 25px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #fff;
+  box-shadow: -10px 25px 50px rgba(0, 0, 0,0.3);
+}
+.box-content{
+  color: #000;
+  font-weight: 500;
+}
+.box-content h4{
+  color: #80d5f9;
+  font-weight: 500;
+}
+/* ------ quotes section end ---------- */
