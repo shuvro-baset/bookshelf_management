@@ -126,14 +126,17 @@ input[type="number"]:focus,
   transition: 0.3s ease-in-out;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  z-index: 1000;
 }
 
 .phone-nav-icon {
   font-size: 25px;
   color: #fff;
+  z-index: 1000;
 }
 
 .pop-button {
+  z-index: 1000;
   position: fixed;
   border-radius: 50%;
   height: 50px;
@@ -147,6 +150,7 @@ input[type="number"]:focus,
 
 .pop-button i {
   color: black !important;
+  z-index: 1000;
 }
 
 .phone_links a {
@@ -273,3 +277,31 @@ input[type="number"]:focus,
   overflow: hidden;
 }
 /* ------ review section end ---------- */
+
+/* -------- counting section start ------- */
+
+.counting-blocks {
+  background: #80d5f9;
+}
+
+.counting-card {
+  background: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+.number {
+  font-size: 50px;
+  color: #80d5f9;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* -------- counting section end ------- */
