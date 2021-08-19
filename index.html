@@ -14,7 +14,8 @@
     />
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/fb93ded780.js" crossorigin="anonymous"></script>
-
+    <!-- swiper js css  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./static/css/style.css" />
     <link rel="stylesheet" href="./static/css/media.css" />
   </head>
@@ -280,6 +281,87 @@
     </section>
     <!-- quotes section end  -->
 
+    <!-- user review section start  -->
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="review-section">
+            <div class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="review-box">
+                    <div class="review-content">
+                      <div class="user-details">
+                        <div class="imgBx">
+                          <img class="img-fluid" src="images/user.jpg" alt="">
+                        </div>
+                        <h5>user1</h5>
+                      </div>
+                      <br>
+                      <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam rerum, commodi saepe ullam corrupti corporis inventore nihil earum molestias.&quot;</p>
+                      <div class="text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-box">
+                    <div class="review-content">
+                      <div class="user-details">
+                        <div class="imgBx">
+                          <img class="img-fluid" src="images/user.jpg" alt="">
+                        </div>
+                        <h5>user1</h5>
+                      </div>
+                      <br>
+                      <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam rerum, commodi saepe ullam corrupti corporis inventore nihil earum molestias.&quot;</p>
+                      <div class="text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-box">
+                    <div class="review-content">
+                      <div class="user-details">
+                        <div class="imgBx">
+                          <img class="img-fluid" src="images/user.jpg" alt="">
+                        </div>
+                        <h5>user1</h5>
+                      </div>
+                      <br>
+                      <p>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam rerum, commodi saepe ullam corrupti corporis inventore nihil earum molestias.&quot;</p>
+                      <div class="text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- user review section end  -->
+
+
     <script src="./static/js/script.js"></script>
     <script src="./static/js/all.min.js"></script>
 
@@ -293,6 +375,26 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <!-- swiper js  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 3,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
+  
   </body>
 </html>
 
