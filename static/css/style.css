@@ -305,3 +305,110 @@ input[type="number"]:focus,
 
 
 /* -------- counting section end ------- */
+
+/* --------- Team Section start --------- */
+
+.colored_span {
+  color: #80d5f9;
+}
+
+.team-card {
+  padding: 30px 0px;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 5px 10px;
+  /* background: #80d5f9; */
+}
+
+.avatar img {
+  height: 140px;
+  width: 140px;
+  border: 5px solid #80d5f9;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-card h2 {
+  margin: 20px 0px;
+}
+
+.team-card .designation {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+
+.social a {
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  /* background: red; */
+  margin: 5px 0px;
+  font-size: 20px;
+  transition: .2s ease-in-out;
+}
+
+.social #fb {
+  background: #395693;
+  color: #fff;
+}
+
+.social #fb:hover {
+  background: #294175;
+}
+
+.social #git {
+  background: rgb(240, 240, 240);
+  color: black;
+}
+
+.social #git:hover {
+  background: rgb(220, 220, 220);
+}
+
+.social #linkedin {
+  background: #0E72A3;
+  color: #fff;
+}
+
+.social #linkedin:hover {
+  background: #064f73;
+}
+/* --------- Team Section end --------- */
+
+/* ---------Footer section start------- */
+
+.footer {
+  background: #3ea6d3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+
+.footer_developers span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subscription-form input {
+  border: 3px solid black;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: none;
+  font-size: 14px;
+}
+
+.subscription-form button {
+  background: black;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-left: none;
+
+}
+
+/* ---------Footer section end------- */
