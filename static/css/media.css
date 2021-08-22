@@ -6,6 +6,12 @@
   #phone_outer {
     display: block;
   }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
 }
 
 @media (max-width: 1024px) {

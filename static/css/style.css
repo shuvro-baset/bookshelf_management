@@ -96,7 +96,7 @@ input[type="number"]:focus,
   padding-bottom: 20px;
   font-size: 18px;
   width: 100px;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .nav-links a.active {
@@ -123,17 +123,20 @@ input[type="number"]:focus,
   /* bottom: -70%; */
   bottom: -440px;
   /* bottom: 0%; */
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  z-index: 1000;
 }
 
 .phone-nav-icon {
   font-size: 25px;
   color: #fff;
+  z-index: 1000;
 }
 
 .pop-button {
+  z-index: 1000;
   position: fixed;
   border-radius: 50%;
   height: 50px;
@@ -141,12 +144,13 @@ input[type="number"]:focus,
   background: black;
   bottom: 30px;
   left: 45%;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
   transform: rotate(0deg);
 }
 
 .pop-button i {
   color: black !important;
+  z-index: 1000;
 }
 
 .phone_links a {
@@ -171,14 +175,240 @@ input[type="number"]:focus,
 
 /* ========= Phone navbar ======== */
 
-
 /* -------- Welcome section ---------- */
 
 .welcome-section h1 {
   color: #80d5f9;
 }
 
-
 /* -------- Welcome section ---------- */
 
 /* ================ Home Page ================ */
+
+/* --------- features section start ---------- */
+#features-section h1{
+  color: #80d5f9;
+}
+#features-section span {
+  color: #000000;
+}
+.accordion-item{
+  background-color: #80d5f9;
+}
+.accordion-button{
+  background-color: #80d5f9;
+  color: #000000;
+  font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #80d5f9;
+  color: #000000;
+  font-weight: 600;
+}
+/* -------- Features section end ---------- */
+/* ---- quotes section start ---------- */
+#quotes-section{
+  background-color: #80d5f9;
+
+}
+.box{
+  padding: 25px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #fff;
+  box-shadow: -10px 25px 50px rgba(0, 0, 0,0.3);
+}
+.box-content{
+  color: #000;
+  font-weight: 500;
+}
+.box-content h4{
+  color: #80d5f9;
+  font-weight: 500;
+}
+/* ------ quotes section end ---------- */
+
+/* ------ review section start ---------- */
+.review-section{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* background: #80d5f9; */
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(4px);
+  background: #80d5f9;
+  /* background: #000; for dark theme*/
+  border-radius: 10px;
+  color: #000;
+  /* color: #fff; for dark theme*/
+}
+.swiper-slide-active {
+  filter: blur(0px);
+
+}
+.review-box{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+}
+.user-details{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgBx{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* ------ review section end ---------- */
+
+/* -------- counting section start ------- */
+
+.counting-blocks {
+  background: #80d5f9;
+}
+
+.counting-card {
+  background: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+.number {
+  font-size: 50px;
+  color: #80d5f9;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* -------- counting section end ------- */
+
+/* --------- Team Section start --------- */
+
+.colored_span {
+  color: #80d5f9;
+}
+
+.team-card {
+  padding: 30px 0px;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 5px 10px;
+  /* background: #80d5f9; */
+}
+
+.avatar img {
+  height: 140px;
+  width: 140px;
+  border: 5px solid #80d5f9;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-card h2 {
+  margin: 20px 0px;
+}
+
+.team-card .designation {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+
+.social a {
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  /* background: red; */
+  margin: 5px 0px;
+  font-size: 20px;
+  transition: .2s ease-in-out;
+}
+
+.social #fb {
+  background: #395693;
+  color: #fff;
+}
+
+.social #fb:hover {
+  background: #294175;
+}
+
+.social #git {
+  background: rgb(240, 240, 240);
+  color: black;
+}
+
+.social #git:hover {
+  background: rgb(220, 220, 220);
+}
+
+.social #linkedin {
+  background: #0E72A3;
+  color: #fff;
+}
+
+.social #linkedin:hover {
+  background: #064f73;
+}
+/* --------- Team Section end --------- */
+
+/* ---------Footer section start------- */
+
+.footer {
+  background: #3ea6d3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+
+.footer_developers span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subscription-form input {
+  border: 3px solid black;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: none;
+  font-size: 14px;
+}
+
+.subscription-form button {
+  background: black;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-left: none;
+
+}
+
+/* ---------Footer section end------- */
