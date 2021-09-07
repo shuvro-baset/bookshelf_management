@@ -29,7 +29,7 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
-.fa-user , .fa-unlock-alt{
+.fa-user , .fa-unlock-alt, .fa-envelope{
     color: #fff !important;
 }
 .login-box .form .inputbox{
@@ -45,10 +45,14 @@
     border: 1px solid rgba(255,255,255, 0.2);
     background: transparent;
     padding: 8px 10px;
-    padding-left: 35px;
     border-radius: 6px;
     color: #fff;
     font-size: 16px;
     font-weight: 300;
     box-shadow: inset 0 0 25px rgba(0,0,0,0.2);
+}
+.login-box .form  p{
+    text-align: center;
+    font-weight: 600;
+    color: black;
 }
