@@ -20,6 +20,8 @@
 .login-box .form{
     position: relative;
     width: 100%;
+    color: #fff;
+    /* text-align: center; */
 }
 .login-box .form h2{
     color: #fff;
@@ -27,8 +29,13 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
+.fa-user , .fa-unlock-alt{
+    color: #fff !important;
+}
 .login-box .form .inputbox{
     position: relative;
+    display: flex;
+    align-items: center;
     width: 100%;
     margin-bottom: 20px;
 }
