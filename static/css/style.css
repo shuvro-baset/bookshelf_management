@@ -412,3 +412,27 @@ input[type="number"]:focus,
 }
 
 /* ---------Footer section end------- */
+
+/* ---------- Contact page section ----------- */
+
+.contact-card {
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.designation {
+  color: rgb(155, 155, 155);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* .form-section {
+  width: 100%;
+} */
+
+.contact-form input {
+  margin: 10px 0px;
+}
+
+/* ---------- Contact page section ----------- */
