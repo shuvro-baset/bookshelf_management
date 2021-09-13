@@ -436,3 +436,48 @@ input[type="number"]:focus,
 }
 
 /* ---------- Contact page section ----------- */
+
+/* ---------- Books page section ------------ */
+
+.book-card {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 20px 10px;
+  height: 500px;
+  width: 300px;
+}
+
+.book_avatar {
+  width: 300px;
+  background: blue;
+}
+
+.book-card img {
+  width: 300px;
+  height: 300px;
+  /* object-fit: initial; */
+}
+
+.name_section span {
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+}
+
+.name_section h5 {
+  margin: 0;
+}
+
+.category_box {
+  font-size: 12px;
+  font-weight: bold;
+  color: #005579;
+  height: 22px;
+  width: auto;
+  padding: 5px 10px;
+  margin: 3px 3px;
+  background: #80d5f926;
+  border: 2px solid #80D5F9;
+  border-radius: 4px;
+}
+
+/* ---------- Books page section ------------ */
