@@ -480,4 +480,31 @@ input[type="number"]:focus,
   border-radius: 4px;
 }
 
+.rate_num {
+  font-weight: bold;
+  color: #80D5F9;
+  font-size: 18px;
+}
+
+#stars {
+  color: #80D5F9;
+}
+
+.filter_bar {
+  height: 80px;
+  padding: 10px 20px;
+  background: #80D5F9;
+}
+
+.cat_filter {
+  height: 40px;
+  width: auto;
+  padding: 0px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid black;
+
+}
+
+
 /* ---------- Books page section ------------ */
