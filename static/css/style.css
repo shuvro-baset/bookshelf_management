@@ -412,3 +412,13 @@ input[type="number"]:focus,
 }
 
 /* ---------Footer section end------- */
+
+/* about section start */
+#about-section{
+  height: 80vh;
+  width: 100%;
+  background-image: url(/images/paralax-book.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
