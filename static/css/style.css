@@ -465,6 +465,7 @@ input[type="number"]:focus,
 
 .name_section h5 {
   margin: 0;
+  color: black;
 }
 
 .category_box {
@@ -506,6 +507,40 @@ input[type="number"]:focus,
   border: 2px solid black;
 }
 
+.book-card-section a {
+  text-decoration: none;
+}
 
 
 /* ---------- Books page section ------------ */
+
+/* ---------- Single books page ------------ */
+
+.details_name {
+  font-size: 18px;
+  font-weight: bold;
+  /* color: grey; */
+}
+
+.details_detail {
+  font-size: 16px;
+  color: grey;
+}
+
+.all_reviews {
+  height: 280px;
+  overflow-y: auto;
+}
+
+.review_box img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.review_box {
+  border-radius: 8px;
+}
+
+
+/* ---------- Single books page ------------ */
