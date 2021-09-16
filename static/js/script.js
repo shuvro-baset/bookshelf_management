@@ -48,7 +48,7 @@ window.addEventListener('scroll', () => {
     
     if (scrolled >= height && scrolled <= yAxis) {
         if (counted == false) {
-            console.log('Beep Beep');
+            // console.log('Beep Beep');
             Counter('books_count', 200, 30);
             Counter('blogs_count', 142, 30);
             Counter('readers_count', 4522, 1);
@@ -56,4 +56,11 @@ window.addEventListener('scroll', () => {
             counted = true;
         }
     }
+});
+
+// Star rating system
+
+document.getElementById('star_1').addEventListener('click', () => {
+    console.log('ok');
+    document.getElementById('star_1').classList.toggle('fas');
 });

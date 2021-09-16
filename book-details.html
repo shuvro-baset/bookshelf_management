@@ -121,7 +121,15 @@
             <div class="reviews my-3">
               <h2>Reviews</h2>
               <form class="form-group w-100">
-                <textarea class="form-control" rows="3" placeholder="Leave a review of this book here"></textarea>
+                <textarea class="form-control" rows="2" placeholder="Leave a review of this book here"></textarea>
+                <div class="stars_review my-2">
+                  <i class="fa-star far" id="star_1"></i>
+                  <i class="fa-star far" id="star_2"></i>
+                  <i class="fa-star far" id="star_3"></i>
+                  <i class="fa-star far" id="star_4"></i>
+                  <i class="fa-star far" id="star_5"></i>
+                </div>
+                <input type="hidden" id="rating_stars">
                 <button type="submit" class="btn btn-dark my-2">Save</button>
               </form>
             </div>
@@ -153,7 +161,32 @@
                 </div>
               </div>
               <!-- ---------- Review box ---------- -->
+              
+              <!-- ---------- Review box ---------- -->
+              <div class="review_box shadow px-2 py-2 my-2">
+                
+                <div class="d-flex flex-column">
+                  <div class="d-flex flex-row">
+                    <img src="./images/user.jpg">
 
+                    <div class="d-flex flex-column mx-3">
+                      <span class="user_name"><b>Mahian Mahin</b></span>
+
+                      <div class="stars d-flex flex-row">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="review_description my-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, impedit.
+                  </div>
+                </div>
+              </div>
+              <!-- ---------- Review box ---------- -->
 
             </div>
           </div>
@@ -164,6 +197,7 @@
         </div>
         </div>
     </section>
+
 
     <!-- Footer section -->
 

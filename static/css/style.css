@@ -530,6 +530,23 @@ input[type="number"]:focus,
 .all_reviews {
   height: 280px;
   overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.all_reviews::-webkit-scrollbar {
+  width: 11px;
+}
+.all_reviews {
+  scrollbar-width: thin;
+  scrollbar-color: #80D5F9;
+}
+.all_reviews::-webkit-scrollbar-track {
+  background: transparent;
+}
+.all_reviews::-webkit-scrollbar-thumb {
+  background-color: #80D5F9;
+  border-radius: 6px;
+  /* border: 3px solid var(--scrollbarBG); */
 }
 
 .review_box img {
@@ -539,8 +556,16 @@ input[type="number"]:focus,
 }
 
 .review_box {
+  border: 3px solid black;
   border-radius: 8px;
 }
 
+/* .stars_review {
+  cursor: pointer;
+} */
+
+#star_1, #star_2, #star_3, #star_4, #star_5 {
+  cursor: pointer;
+} 
 
 /* ---------- Single books page ------------ */
