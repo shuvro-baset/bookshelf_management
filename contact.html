@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="shortcut icon"  type="image/ico"  href="./static/img/Favicon.ico"/>
+
+    <!-- Bootstrap cdn -->
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/fb93ded780.js" crossorigin="anonymous"></script>
+    <!-- swiper js css  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <link rel="stylesheet" href="./static/css/media.css" />
+  </head>
+  <body>
+    <!-- Row for logo and sreachbar start -->
+    <div class="container-fluid">
+      <div class="row logo-row">
+        <div class="col-sm-12 text-center text-white">
+          <h2 class="my-3 logo">BookHub</h2>
+        </div>
+      </div>
+      <!-- Row for navbar and cart icons start -->
+
+      <div class="row logo-row search-icons-section" id="hide">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <!-- Search bar -->
+          <div class="search-bar my-3">
+            <form method="post" class="d-flex flex-row">
+              <input type="text" name="search" placeholder="Search by book name or writter name"/>
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <!-- Search bar -->
+        </div>
+
+        <div class=" col-sm-6 d-flex justify-content-center align-items-center px-5 icon-section">
+          <a href="#"><i class="fas fa-shopping-cart icons"></i></a>
+          <a href="#"><i class="fas fa-sign-in-alt icons"></i></a>
+          <a href="#"><i class="fas fa-user-plus icons"></i></a>
+        </div>
+      </div>
+      <!-- Row for navbar and cart icons end -->
+
+      <!-- Row for nav links start -->
+
+      <!-- ========== Desktop navbar ========== -->
+      <div class="row navbar-desktop" id="hide">
+        <div class=" col-sm-12 d-flex flex-row justify-content-center align-items-center nav-links">
+          <a href="#" class="d-flex justify-content-center active">Home</a>
+          <a href="#" class="d-flex justify-content-center">Books</a>
+          <a href="#" class="d-flex justify-content-center">Blogs</a>
+          <a href="#" class="d-flex justify-content-center">Reviews</a>
+          <a href="#" class="d-flex justify-content-center">About Us</a>
+          <a href="#" class="d-flex justify-content-center">Contact Us</a>
+        </div>
+      </div>
+      <!-- ========== Desktop navbar ========== -->
+
+      <!-- Row for nav links end -->
+
+      <!-- row for logo and sreachbar start -->
+    </div>
+
+    <!-- ========== Phone navbar ========== -->
+
+    <div class="phone-navbar-outer shadow-lg" id="phone_outer">
+      <div class="pop-button d-flex justify-content-center align-items-center" id="pop_button">
+        <i class="fas fa-angle-up phone-nav-icon"></i>
+      </div>
+      <div class=" phone-inner d-flex flex-row justify-content-between align-items-center">
+        <a href="#"><i class="fas fa-home phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-book-open phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-blog phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+        <a href="#"><i class="fas fa-user phone-nav-icon my-3 mx-4" id="phone_nav_icons"></i></a>
+      </div>
+
+      <div class=" phone_links d-flex flex-row flex-wrap justify-content-center px-3">
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Home</a>
+        <a  href="#" class="text-center d-flex align-items-center justify-content-center">Books</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Blogs</a>
+        <a  href="#" class="text-center d-flex align-items-center justify-content-center">Reviews</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">About Us</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Contact Us</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Login</a>
+        <a href="#" class="text-center d-flex align-items-center justify-content-center">Signup</a>
+        <!-- Search bar -->
+        <div class="search-bar my-3 phone-search mt-3">
+          <form method="post" class="d-flex flex-row">
+            <input type="text" name="search" placeholder="Search by book name or writter name"/>
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+        <!-- Search bar -->
+      </div>
+    </div>
+
+    <!-- ========== Phone navbar ========== -->
+
+    <!-- ================== Contact section starts here ======================= -->
+
+    <section class="my-5">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-6 my-3 d-flex justify-content-center align-items-center">
+                    <div class="contact-card shadow d-flex flex-column justify-content-center align-items-center">
+                      <div class="my-3 d-flex flex-column align-items-center">
+                        <h3>Shuvro Baset</h3>
+                        <span class="designation">CEO of BookHub</span>
+                        <div class="my-3 d-flex flex-column align-items-center">
+                          <span><i class="fab fa-whatsapp"></i> &nbsp; +880 1673841675</span>
+                          <span><i class="fas fa-envelope"></i> &nbsp; shuvro.aps.75@gmail.com</span>
+                        </div>
+                      </div>
+                      
+                      <div class="my-3 d-flex flex-column align-items-center">
+                        <h3>Mahian Mahin</h3>
+                        <span class="designation">CTO of BookHub</span>
+                        <div class="my-3 d-flex flex-column align-items-center">
+                          <span><i class="fab fa-whatsapp"></i> &nbsp; +880 1762142364</span>
+                          <span><i class="fas fa-envelope"></i> &nbsp; mahianmahin@yahoo.com</span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="form-section col-sm-6 my-3 d-flex justify-content-center align-items-center">
+                  <div class="w-100">
+                    <h3 class="mb-2">Contact us</h3>
+                    <form class="form-group contact-form">
+                      <input type="text" class="form-control" placeholder="Your Name" required>
+                      <input type="email" class="form-control" placeholder="Your Email Address" required>
+                      <input type="email" class="form-control" placeholder="Your Subject" required>
+                      <textarea class="form-control" rows="6" required placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn-dark w-100 mt-2">Send</button>
+                    </form>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================== Contact section ends here ======================= -->
+
+
+    <!-- Footer section -->
+
+    <section class="footer shadow-lg">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-3 d-flex justify-content-center align-items-center"><h4 class="my-3 logo">BookHub</h4></div>
+
+          <div class="my-3 col-sm-3 d-flex flex-column justify-content-center align-items-center footer_developers">
+            <h3>Developers</h3>
+            <span>Shuvro Baset</span>
+            <small>Full Stack Web Developer</small>
+            <br>
+            <span>Mahian Mahin</span>
+            <small>Full Stack Web Developer</small>
+          </div>
+          
+          <div class="my-3 col-sm-3 d-flex flex-column justify-content-center align-items-center footer_contact">
+            <h3>Contact Us</h3>
+            <span><i class="fab fa-whatsapp"></i> &nbsp; +880 1673841675</span>
+            <span><i class="fab fa-whatsapp"></i> &nbsp; +880 1762142364</span>
+            <br>
+            <span><i class="fas fa-envelope"></i> &nbsp; shuvro.aps.75@gmail.com</span>
+            <span><i class="fas fa-envelope"></i> &nbsp; mahianmahin@yahoo.com</span>
+            <br>
+            <span><i class="fas fa-map-marker-alt"></i> &nbsp; Azmipur, Dhaka</span>
+          </div>
+          
+          <div class="my-3 col-sm-3 d-flex flex-column justify-content-center align-items-center footer_subscribe">
+            <h3 class="my-3">Subscribe</h3>
+            <form class="form-group subscription-form d-flex flex-row">
+              <input type="email" class="form-control" placeholder="Enter email" required>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer section -->
+
+
+    <script src="./static/js/script.js"></script>
+    <script src="./static/js/all.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 3,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
+  
+  </body>
+</html>
