@@ -119,17 +119,17 @@
             </div>
 
             <div class="reviews my-3">
-              <h2>Reviews</h2>
+              <h2 id="type">Reviews</h2>
               <form class="form-group w-100">
                 <textarea class="form-control" rows="2" placeholder="Leave a review of this book here"></textarea>
-                <div class="stars_review my-2">
-                  <i class="fa-star far" id="star_1"></i>
-                  <i class="fa-star far" id="star_2"></i>
-                  <i class="fa-star far" id="star_3"></i>
-                  <i class="fa-star far" id="star_4"></i>
-                  <i class="fa-star far" id="star_5"></i>
+                <div class="stars_review my-2 d-flex flex-row">
+                  <div class="mx-1" id="star_1"><i class="fa-star fas"></i></div>
+                  <div class="mx-1" id="star_2"><i class="fa-star fas"></i></div>
+                  <div class="mx-1" id="star_3"><i class="fa-star fas"></i></div>
+                  <div class="mx-1" id="star_4"><i class="fa-star fas"></i></div>
+                  <div class="mx-1" id="star_5"><i class="fa-star fas"></i></div>
                 </div>
-                <input type="hidden" id="rating_stars">
+                <input type="hidden" id="rating_stars_hidden" value="" name="rating_stars">
                 <button type="submit" class="btn btn-dark my-2">Save</button>
               </form>
             </div>
@@ -192,7 +192,7 @@
           </div>
 
           <div class="col-sm-8">
-            <embed src="./pdf/book.pdf" type="application/pdf" height="800px" width="100%" class="pdf_box">
+            <iframe src="./pdf/book.pdf#toolbar=0" type="application/pdf" height="800px" width="100%" class="pdf_box"></iframe>
           </div>
         </div>
         </div>

@@ -15,9 +15,13 @@ document.getElementById('pop_button').addEventListener('click', () => {
 // Counter
 
 // ----- Getting the y axis position of counter section div
-var element = document.getElementById('counter_section');
-var position = element.getBoundingClientRect();
-var yAxis = position.top;
+try {
+    var element = document.getElementById('counter_section');
+    var position = element.getBoundingClientRect();
+    var yAxis = position.top;
+} catch(error) {
+    // pass
+}
 
 yAxis = Math.floor(yAxis);
 
@@ -60,7 +64,54 @@ window.addEventListener('scroll', () => {
 
 // Star rating system
 
-document.getElementById('star_1').addEventListener('click', () => {
-    console.log('ok');
-    document.getElementById('star_1').classList.toggle('fas');
+// Star clicking effect
+
+document.getElementById("star_1").addEventListener('click', () => {
+    document.getElementById("star_1").style.color = "#80D5F9";
+    document.getElementById("star_2").style.color = "black";
+    document.getElementById("star_3").style.color = "black";
+    document.getElementById("star_4").style.color = "black";
+    document.getElementById("star_5").style.color = "black";
+
+    document.getElementById('rating_stars_hidden').value = "1";
+});
+
+document.getElementById("star_2").addEventListener('click', () => {
+    document.getElementById("star_1").style.color = "#80D5F9";
+    document.getElementById("star_2").style.color = "#80D5F9";
+    document.getElementById("star_3").style.color = "black";
+    document.getElementById("star_4").style.color = "black";
+    document.getElementById("star_5").style.color = "black";
+
+    document.getElementById('rating_stars_hidden').value = "2";
+});
+
+document.getElementById("star_3").addEventListener('click', () => {
+    document.getElementById("star_1").style.color = "#80D5F9";
+    document.getElementById("star_2").style.color = "#80D5F9";
+    document.getElementById("star_3").style.color = "#80D5F9";
+    document.getElementById("star_4").style.color = "black";
+    document.getElementById("star_5").style.color = "black";
+
+    document.getElementById('rating_stars_hidden').value = "3";
+});
+
+document.getElementById("star_4").addEventListener('click', () => {
+    document.getElementById("star_1").style.color = "#80D5F9";
+    document.getElementById("star_2").style.color = "#80D5F9";
+    document.getElementById("star_3").style.color = "#80D5F9";
+    document.getElementById("star_4").style.color = "#80D5F9";
+    document.getElementById("star_5").style.color = "black";
+
+    document.getElementById('rating_stars_hidden').value = "4";
+});
+
+document.getElementById("star_5").addEventListener('click', () => {
+    document.getElementById("star_1").style.color = "#80D5F9";
+    document.getElementById("star_2").style.color = "#80D5F9";
+    document.getElementById("star_3").style.color = "#80D5F9";
+    document.getElementById("star_4").style.color = "#80D5F9";
+    document.getElementById("star_5").style.color = "#80D5F9";
+
+    document.getElementById('rating_stars_hidden').value = "5";
 });

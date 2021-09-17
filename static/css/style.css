@@ -566,6 +566,7 @@ input[type="number"]:focus,
 
 #star_1, #star_2, #star_3, #star_4, #star_5 {
   cursor: pointer;
-} 
+  color: black;
+}
 
 /* ---------- Single books page ------------ */
