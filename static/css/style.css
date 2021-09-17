@@ -413,6 +413,7 @@ input[type="number"]:focus,
 
 /* ---------Footer section end------- */
 
+
 /* ---------- Contact page section ----------- */
 
 .contact-card {
@@ -570,3 +571,14 @@ input[type="number"]:focus,
 }
 
 /* ---------- Single books page ------------ */
+=======
+/* about section start */
+#about-section{
+  height: 80vh;
+  width: 100%;
+  background-image: url(/images/paralax-book.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
