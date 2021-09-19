@@ -582,3 +582,114 @@ input[type="number"]:focus,
   background-attachment: fixed;
 }
 
+
+/* ------------ Dashboard page ------------ */
+
+.profile_pic_section {
+  /* background: blue; */
+}
+
+.profile_pic_section img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.profile_info {
+  /* background: red; */
+}
+
+.personal_info_form input {
+  margin: 10px 0px;
+}
+
+.review_slider {
+  height: 250px;
+  overflow-x: auto;
+  /* background: red; */
+}
+
+.review_card {
+  height: 200px;
+  min-width: 350px;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px 20px;
+}
+
+.review_card a {
+  text-decoration: none;
+  color: black;
+}
+
+.review_description {
+  width: 350px;
+  padding-right: 10px;
+}
+
+.review_slider::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	background-color: #F5F5F5;
+}
+
+.review_slider::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.review_slider::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #1C1F23;
+}
+
+#avatar_file {
+  display: none;
+}
+
+.book_upload_form input[type="text"], textarea {
+  margin: 10px 0;
+}
+
+.language_select {
+  height: 40px;
+}
+
+.categories label {
+  margin: 7px 0px;
+  cursor: pointer;
+  /* background: rgb(228, 228, 228); */
+  padding: 10px 5px;
+  /* border-radius: 8px; */
+  /* border: 3px solid black; */
+  /* font-size: 18px; */
+}
+
+.categories label span {
+  /* margin: 10px; */
+  cursor: pointer;
+  background: rgb(228, 228, 228);
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 3px solid black;
+  font-size: 18px;
+}
+
+.categories label input[type="checkbox"] {
+  display: none;
+}
+
+.categories label input[type="checkbox"]:checked ~ span {
+  background: black;
+  color: #fff;
+}
+
+#add_book_section {
+  display: none;
+}
+/* ------------ Dashboard page ------------ */
