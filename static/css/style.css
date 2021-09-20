@@ -701,3 +701,7 @@ input[type="number"]:focus,
   height: 60px;
   border-radius: 50%;
 }
+.blog-left{
+  height: 100vh;
+  overflow-y: scroll;
+}
