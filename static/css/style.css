@@ -693,3 +693,11 @@ input[type="number"]:focus,
   display: none;
 }
 /* ------------ Dashboard page ------------ */
+
+
+/* blog page */
+#blog-author-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
