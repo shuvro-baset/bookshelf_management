@@ -705,3 +705,13 @@ input[type="number"]:focus,
   height: 100vh;
   overflow-y: scroll;
 }
+.heading-border{
+  background: black;
+  color: white;
+  padding: 10px;
+  border: 2px solid #80D5F9;
+  border-radius: 10px;
+}
+.card-header p{
+  margin: 0;
+}
