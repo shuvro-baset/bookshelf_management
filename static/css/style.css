@@ -693,3 +693,25 @@ input[type="number"]:focus,
   display: none;
 }
 /* ------------ Dashboard page ------------ */
+
+
+/* blog page */
+#blog-author-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.blog-left{
+  height: 100vh;
+  overflow-y: scroll;
+}
+.heading-border{
+  background: black;
+  color: white;
+  padding: 10px;
+  border: 2px solid #80D5F9;
+  border-radius: 10px;
+}
+.card-header p{
+  margin: 0;
+}
