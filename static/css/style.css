@@ -33,6 +33,35 @@ input[type="number"]:focus,
 
 /* ===== Fonts ====== */
 
+/* custom buttons */
+.details-btn{
+  padding: 2px;
+  background-color: #80D5F9;
+  border-radius: 3px;
+  width: 60px;
+}
+.update-btn{
+  padding: 2px;
+  background-color: #0d6efd;
+  border-radius: 3px;
+  width: 60px;
+}
+.delete-btn{
+  padding: 2px;
+  background-color: #ff0101;
+  border-radius: 3px;
+  width: 60px;
+}
+.details-btn:hover{
+  border: 1px solid black;
+} 
+.update-btn:hover{
+  border: 1px solid black;
+}
+.delete-btn:hover{
+  border: 1px solid black;
+}
+
 /* ================ Home Page ================ */
 
 .logo-row {
@@ -584,22 +613,22 @@ input[type="number"]:focus,
 
 
 /* ------------ Dashboard page ------------ */
-
+/*
 .profile_pic_section {
-  /* background: blue; */
+   background: blue;
 }
-
+*/
 .profile_pic_section img {
   height: 250px;
   width: 250px;
   border-radius: 50%;
   border: 4px solid black;
 }
-
+/*
 .profile_info {
-  /* background: red; */
+  background: red; 
 }
-
+*/
 .personal_info_form input {
   margin: 10px 0px;
 }
@@ -695,15 +724,11 @@ input[type="number"]:focus,
 /* ------------ Dashboard page ------------ */
 
 
-/* blog page */
+/* ----- blogs page ------- */
 #blog-author-img{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-}
-.blog-left{
-  height: 100vh;
-  overflow-y: scroll;
 }
 .heading-border{
   background: black;
@@ -722,35 +747,12 @@ input[type="number"]:focus,
 .card-body p{
   margin: 0;
 }
-
+.card-footer{
+  margin: 5px 15px !important;
+  padding: 0 !important;
+  border-top: none !important;
+}
 .my-blogs{
   height: 100vh;
   overflow-y: scroll;
-}
-.details-btn{
-  padding: 2px;
-  background-color: #80D5F9;
-  border-radius: 3px;
-  width: 60px;
-}
-.update-btn{
-  padding: 2px;
-  background-color: #0d6efd;
-  border-radius: 3px;
-  width: 60px;
-}
-.delete-btn{
-  padding: 2px;
-  background-color: #ff0101;
-  border-radius: 3px;
-  width: 60px;
-}
-.details-btn:hover{
-  border: 1px solid black;
-} 
-.update-btn:hover{
-  border: 1px solid black;
-}
-.delete-btn:hover{
-  border: 1px solid black;
 }
