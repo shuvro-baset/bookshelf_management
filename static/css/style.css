@@ -763,16 +763,20 @@ input[type="number"]:focus,
   height: 250px;
   border-radius: 50%;
 }
-.single-blog-details h6{
+.single-blog-section h6{
   background: black;
   padding: 8px;
   border-radius: 5px;
   font-size: 20px;
   font-weight: 600;
-  color: #80D5F9;
+  color: #ffffff;
   text-align: center;
 }
 .single-blog-details img{
   width: 100%;
   height: 250px;
+}
+.single-blog-details p{
+  text-indent: 50px;
+  text-align: justify;
 }
